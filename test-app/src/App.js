@@ -5,7 +5,7 @@ import './App.css';
 
 
 const api = axios.create({
-    baseURL: 'http://localhost:8000',
+    baseURL: 'http://hyunho-backend.herokuapp.com/',
     // headers: { 'Access-Control-Allow-Origin': '*' },
 });
 
